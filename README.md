@@ -1,2 +1,2 @@
 # nikola-klacar-portfolio
-QA Automation Engineer portfolio
+QA Automation Engineer Portfolio
