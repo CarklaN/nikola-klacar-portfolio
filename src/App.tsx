@@ -115,7 +115,7 @@ function App() {
 
           <div className="relative max-w-6xl mx-auto text-center">
             {/* <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-800 text-blue-700 dark:text-blue-300 text-sm font-medium mb-6"> */}
-              {/* <CheckCircle2 size={16} />
+            {/* <CheckCircle2 size={16} />
               Open to Remote Opportunities
             </div> */}
 
@@ -221,7 +221,7 @@ function App() {
                     <li className="flex items-start gap-2">
                       <CheckCircle2 size={18} className="mt-0.5 text-blue-600 flex-shrink-0" />
                       <span>
-                      Validated E2E data flow and performed data integrity checks on Elasticsearch and Redshift
+                        Validated E2E data flow and performed data integrity checks on Elasticsearch and Redshift
                       </span>
                     </li>
                     <li className="flex items-start gap-2">
@@ -436,7 +436,7 @@ function App() {
                   Online Presence Management Platform
                 </h3>
                 <p className="text-slate-600 dark:text-slate-300 mb-4">
-                  Led QA efforts for desktop and mobile platforms, implementing 50% API and 50% UI automated tests that reduced regression time by 35% and improved visual test coverage via Applitools. 
+                  Led QA efforts for desktop and mobile platforms, implementing 50% API and 50% UI automated tests that reduced regression time by 35% and improved visual test coverage via Applitools.
                   Migrated the automation framework from WebDriverIO to Playwright, optimizing performance and maintainability.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -517,99 +517,60 @@ function App() {
             </div>
           </div>
         </section>
-
-        <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">Get in Touch</h2>
-            <p className="text-center text-slate-600 dark:text-slate-400 mb-12 max-w-2xl mx-auto">
+        <section
+          id="contact"
+          className="min-h-screen lg:min-h-0 flex flex-col px-4 sm:px-6 lg:px-8 pb-12 lg:pb-8"
+        >
+          {/* Header */}
+          <div className="max-w-4xl mx-auto pt-12 lg:pt-8 text-center">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-3 lg:mb-2">
+              Get in Touch
+            </h2>
+            <p className="text-slate-600 dark:text-slate-400 mb-6 lg:mb-4 max-w-2xl mx-auto">
               Open to remote and hybrid opportunities across Europe and the US. Let's discuss how I can help improve your testing infrastructure.
             </p>
+          </div>
 
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-white dark:bg-slate-800 rounded-xl p-8 shadow-sm border border-slate-200 dark:border-slate-700">
-                <h3 className="text-xl font-bold mb-6">Contact Information</h3>
-                <div className="space-y-4">
+          {/* Contact box */}
+          <div className="flex flex-1 lg:flex-none items-center justify-center">
+            <div className="max-w-md w-full">
+              <div className="bg-white dark:bg-slate-800 rounded-xl p-6 lg:p-8 shadow-sm border border-slate-200 dark:border-slate-700 text-center">
+                <h3 className="text-2xl font-bold mb-4">Contact Information</h3>
+
+                <div className="space-y-3">
                   <a
-                    href="nikola.klacar@gmail.com"
-                    className="flex items-center gap-3 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    href="mailto:nikola.klacar@gmail.com"
+                    className="flex justify-center items-center gap-3 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
                     <Mail size={20} />
                     <span>nikola.klacar@gmail.com</span>
                   </a>
+
                   <a
                     href="https://www.linkedin.com/in/nikolaklacar/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    className="flex justify-center items-center gap-3 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
                     <Linkedin size={20} />
-                    <span>https://www.linkedin.com/in/nikolaklacar/</span>
+                    <span>LinkedIn Profile</span>
                   </a>
+
                   <a
                     href="https://github.com/carklan"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    className="flex justify-center items-center gap-3 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
                     <Github size={20} />
-                    <span>https://github.com/carklan</span>
+                    <span>GitHub Profile</span>
                   </a>
                 </div>
               </div>
-
-              <form onSubmit={handleSubmit} className="bg-white dark:bg-slate-800 rounded-xl p-8 shadow-sm border border-slate-200 dark:border-slate-700">
-                <h3 className="text-xl font-bold mb-6">Send a Message</h3>
-                <div className="space-y-4">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
-                    <input
-                      type="text"
-                      id="name"
-                      value={formData.name}
-                      onChange={(e) => setFormData(prev => ({ ...prev, name: e.target.value }))}
-                      required
-                      className="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-shadow"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
-                    <input
-                      type="email"
-                      id="email"
-                      value={formData.email}
-                      onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
-                      required
-                      className="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-shadow"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
-                    <textarea
-                      id="message"
-                      value={formData.message}
-                      onChange={(e) => setFormData(prev => ({ ...prev, message: e.target.value }))}
-                      required
-                      rows={4}
-                      className="w-full px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-shadow resize-none"
-                    />
-                  </div>
-                  <button
-                    type="submit"
-                    className="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors shadow-lg shadow-blue-500/30"
-                  >
-                    Send Message
-                  </button>
-                  {formStatus === 'success' && (
-                    <div className="flex items-center gap-2 text-green-600 dark:text-green-400 text-sm">
-                      <CheckCircle2 size={16} />
-                      Message sent successfully!
-                    </div>
-                  )}
-                </div>
-              </form>
             </div>
           </div>
         </section>
+
       </main>
 
       <footer className="border-t border-slate-200 dark:border-slate-800 py-12 px-4 sm:px-6 lg:px-8">
