@@ -411,16 +411,18 @@ function App() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700 hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-600 transition-all group">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center mb-4">
-                  <Database className="text-white" size={24} />
+                <div className="flex items-start gap-3 mb-4">
+                  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                    <Database className="text-white" size={20} />
+                  </div>
+                  <h3 className="text-lg font-bold group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    Data Processing Platform & System Migration
+                  </h3>
                 </div>
-                <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                  Data Processing Platform & System Migration
-                </h3>
                 <p className="text-slate-600 dark:text-slate-300 mb-4">
                   Validated internal data processing and system migration, ensuring full functional coverage, validating data integrity, and monitoring backend behavior via API Automation, Swagger and Splunk.
                 </p>
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2">
                   <span className="px-2 py-1 bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs rounded-md">Python</span>
                   <span className="px-2 py-1 bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs rounded-md">Pytest</span>
                   <span className="px-2 py-1 bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs rounded-md">Kafka</span>
@@ -429,17 +431,19 @@ function App() {
               </div>
 
               <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700 hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-600 transition-all group">
-                <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center mb-4">
-                  <TestTube className="text-white" size={24} />
+                <div className="flex items-start gap-3 mb-4">
+                  <div className="w-10 h-10 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                    <TestTube className="text-white" size={20} />
+                  </div>
+                  <h3 className="text-lg font-bold group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    Online Presence Management Platform
+                  </h3>
                 </div>
-                <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                  Online Presence Management Platform
-                </h3>
                 <p className="text-slate-600 dark:text-slate-300 mb-4">
                   Led QA efforts for desktop and mobile platforms, implementing 50% API and 50% UI automated tests that reduced regression time by 35% and improved visual test coverage via Applitools.
                   Migrated the automation framework from WebDriverIO to Playwright, optimizing performance and maintainability.
                 </p>
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2">
                   <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">JavaScript</span>
                   <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">Playwright</span>
                   <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">WebDriverIO</span>
@@ -448,17 +452,19 @@ function App() {
               </div>
 
               <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700 hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-600 transition-all group">
-                <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-cyan-500 rounded-lg flex items-center justify-center mb-4">
-                  <Server className="text-white" size={24} />
+                <div className="flex items-start gap-3 mb-4">
+                  <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-cyan-500 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                    <Server className="text-white" size={20} />
+                  </div>
+                  <h3 className="text-lg font-bold group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    Data Dashboards for Upper Management
+                  </h3>
                 </div>
-                <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                  Data Dashboards for Upper Management
-                </h3>
                 <p className="text-slate-600 dark:text-slate-300 mb-4">
                   Developed and maintained automation for a web-based management dashboard, implementing 60-40 ratio API-UI. Reduced manual testing effort by 40%.
                   Ensured accurate end-to-end data delivery from AWS storage to UI via Kafka topics.
                 </p>
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2">
                   <span className="px-2 py-1 bg-green-50 dark:bg-green-950/30 text-green-700 dark:text-green-300 text-xs rounded-md">JavaScript/TypeScript</span>
                   <span className="px-2 py-1 bg-green-50 dark:bg-green-950/30 text-green-700 dark:text-green-300 text-xs rounded-md">TestNG</span>
                   <span className="px-2 py-1 bg-green-50 dark:bg-green-950/30 text-green-700 dark:text-green-300 text-xs rounded-md">Jenkins</span>
@@ -467,16 +473,18 @@ function App() {
               </div>
 
               <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700 hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-600 transition-all group">
-                <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center mb-4">
-                  <TestTube className="text-white" size={24} />
+                <div className="flex items-start gap-3 mb-4">
+                  <div className="w-10 h-10 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                    <TestTube className="text-white" size={20} />
+                  </div>
+                  <h3 className="text-lg font-bold group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    Peer-to-Peer Fashion Platform
+                  </h3>
                 </div>
-                <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                  Peer-to-Peer Fashion Platform
-                </h3>
                 <p className="text-slate-600 dark:text-slate-300 mb-4">
                   Ensured application quality through smoke, regression, exploratory and A/B testing, reducing regression defects and validating mobile and web functionality for a consistent user experience.
                 </p>
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2">
                   <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">Manual Testing</span>
                   <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">A/B Testing</span>
                   <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">User Experience</span>
@@ -519,57 +527,73 @@ function App() {
         </section>
         <section
           id="contact"
-          className="min-h-screen lg:min-h-0 flex flex-col px-4 sm:px-6 lg:px-8 pb-12 lg:pb-8"
+          className="py-20 px-4 sm:px-6 lg:px-8"
         >
-          {/* Header */}
-          <div className="max-w-4xl mx-auto pt-12 lg:pt-8 text-center">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-3 lg:mb-2">
-              Get in Touch
-            </h2>
-            <p className="text-slate-600 dark:text-slate-400 mb-6 lg:mb-4 max-w-2xl mx-auto">
-              Open to remote and hybrid opportunities across Europe and the US. Let's discuss how I can help improve your testing infrastructure.
-            </p>
-          </div>
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="lg:text-left text-center">
+                <h2 className="text-3xl sm:text-4xl font-bold mb-6">
+                  Get in Touch
+                </h2>
+                <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
+                  Open to remote and hybrid opportunities across Europe and the US. Let's discuss how I can help improve your testing infrastructure and deliver reliable automation solutions for your teams.
+                </p>
+              </div>
 
-          {/* Contact box */}
-          <div className="flex flex-1 lg:flex-none items-center justify-center">
-            <div className="max-w-md w-full">
-              <div className="bg-white dark:bg-slate-800 rounded-xl p-6 lg:p-8 shadow-sm border border-slate-200 dark:border-slate-700 text-center">
-                <h3 className="text-2xl font-bold mb-4">Contact Information</h3>
+              <div>
+                <div className="bg-white dark:bg-slate-800 rounded-xl p-8 shadow-sm border border-slate-200 dark:border-slate-700">
+                  <h3 className="text-2xl font-bold mb-6 text-center">Contact Information</h3>
 
-                <div className="space-y-3">
-                  <a
-                    href="mailto:nikola.klacar@gmail.com"
-                    className="flex justify-center items-center gap-3 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                  >
-                    <Mail size={20} />
-                    <span>nikola.klacar@gmail.com</span>
-                  </a>
+                  <div className="space-y-4">
+                    <a
+                      href="mailto:nikola.klacar@gmail.com"
+                      className="flex items-center gap-4 p-4 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors group"
+                    >
+                      <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Mail size={20} className="text-blue-600 dark:text-blue-400" />
+                      </div>
+                      <div className="text-left">
+                        <p className="text-sm text-slate-500 dark:text-slate-400">Email</p>
+                        <p className="text-slate-900 dark:text-slate-100 font-medium group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">nikola.klacar@gmail.com</p>
+                      </div>
+                    </a>
 
-                  <a
-                    href="https://www.linkedin.com/in/nikolaklacar/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex justify-center items-center gap-3 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                  >
-                    <Linkedin size={20} />
-                    <span>LinkedIn Profile</span>
-                  </a>
+                    <a
+                      href="https://www.linkedin.com/in/nikolaklacar/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-4 p-4 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors group"
+                    >
+                      <div className="w-10 h-10 bg-cyan-100 dark:bg-cyan-900/30 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Linkedin size={20} className="text-cyan-600 dark:text-cyan-400" />
+                      </div>
+                      <div className="text-left">
+                        <p className="text-sm text-slate-500 dark:text-slate-400">LinkedIn</p>
+                        <p className="text-slate-900 dark:text-slate-100 font-medium group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">View Profile</p>
+                      </div>
+                    </a>
 
-                  <a
-                    href="https://github.com/carklan"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex justify-center items-center gap-3 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                  >
-                    <Github size={20} />
-                    <span>GitHub Profile</span>
-                  </a>
+                    <a
+                      href="https://github.com/carklan"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-4 p-4 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors group"
+                    >
+                      <div className="w-10 h-10 bg-slate-100 dark:bg-slate-700/50 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Github size={20} className="text-slate-600 dark:text-slate-400" />
+                      </div>
+                      <div className="text-left">
+                        <p className="text-sm text-slate-500 dark:text-slate-400">GitHub</p>
+                        <p className="text-slate-900 dark:text-slate-100 font-medium group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">View Projects</p>
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
 
       </main>
 
