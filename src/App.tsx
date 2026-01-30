@@ -129,7 +129,7 @@ function App() {
 
             <div className="flex flex-wrap justify-center gap-4 mb-12">
               <a
-                href="/cv.pdf"
+                href="https://github.com/CarklaN/nikola-klacar-portfolio/raw/refs/heads/main/data/Nikola_Klacar_Resume.pdf"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors shadow-lg shadow-blue-500/30"
               >
                 <Download size={18} />
