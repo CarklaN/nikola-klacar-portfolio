@@ -114,10 +114,10 @@ function App() {
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNiIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utb3BhY2l0eT0iLjA1IiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PC9zdmc+')] dark:opacity-10 opacity-40" />
 
           <div className="relative max-w-6xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-800 text-blue-700 dark:text-blue-300 text-sm font-medium mb-6">
-              <CheckCircle2 size={16} />
+            {/* <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-800 text-blue-700 dark:text-blue-300 text-sm font-medium mb-6"> */}
+              {/* <CheckCircle2 size={16} />
               Open to Remote Opportunities
-            </div>
+            </div> */}
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-slate-900 via-blue-800 to-cyan-700 dark:from-slate-100 dark:via-blue-200 dark:to-cyan-200 bg-clip-text text-transparent leading-tight">
               QA Automation Engineer
@@ -177,10 +177,10 @@ function App() {
             <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">About Me</h2>
             <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-sm border border-slate-200 dark:border-slate-700">
               <p className="text-lg text-slate-600 dark:text-slate-300 mb-4 leading-relaxed">
-                I am a QA Automation Engineer specializing in building reliable and maintainable test systems for complex platforms, including data processing systems, management dashboards, and online service platforms.
+                I am a QA Automation Engineer who specialises on developing reliable and scalable test systems for complex platforms including data pipelines, management dashboards, and web services. I build automation frameworks that grow with products and teams, ensuring long-term quality and stability.
               </p>
               <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-                I work closely with developers and DevOps teams to ensure testing is integrated throughout the engineering lifecycle, not treated as a final checkpoint. My focus is on early collaboration, risk-based prioritization, and creating automation frameworks that scale with product growth.
+                I collaborate closely with the engineering, DevOps, and product teams to ensure quality across the whole development process. My approach combines enterprise level standards with a startup mindset, shaped by my experience as a startup co-owner, while balancing speed, technical excellence and business impact.
               </p>
             </div>
           </div>
@@ -188,30 +188,53 @@ function App() {
 
         <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center">Experience</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center">
+              Experience
+            </h2>
+
             <div className="space-y-8">
               <div className="relative pl-8 border-l-2 border-blue-600 dark:border-blue-400">
                 <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-blue-600 dark:bg-blue-400" />
+
                 <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700">
                   <div className="flex items-start justify-between mb-3">
                     <div>
-                      <h3 className="text-xl font-bold mb-1">QA Automation Engineer</h3>
-                      <p className="text-slate-600 dark:text-slate-400">Tech Company</p>
+                      <h3 className="text-xl font-bold mb-1">
+                        QA Automation Engineer
+                      </h3>
+                      <p className="text-slate-600 dark:text-slate-400">
+                        Atlantbh doo
+                      </p>
                     </div>
-                    <span className="text-sm text-slate-500 dark:text-slate-400">2022 - Present</span>
+                    <span className="text-sm text-slate-500 dark:text-slate-400">
+                      2022 - Present
+                    </span>
                   </div>
+
                   <ul className="space-y-2 text-slate-600 dark:text-slate-300">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 size={18} className="mt-0.5 text-blue-600 flex-shrink-0" />
-                      <span>Designed and implemented API automation framework using Pytest for data processing platform</span>
+                      <span>
+                        Designed and executed manual and automated UI and API tests using JavaScript/TypeScript and Python
+                      </span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 size={18} className="mt-0.5 text-blue-600 flex-shrink-0" />
-                      <span>Validated Kafka to UI to S3 data pipelines, ensuring data integrity across systems</span>
+                      <span>
+                      Validated E2E data flow and performed data integrity checks on Elasticsearch and Redshift
+                      </span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 size={18} className="mt-0.5 text-blue-600 flex-shrink-0" />
-                      <span>Integrated regression tests into Jenkins CI pipeline, reducing deployment time by 40%</span>
+                      <span>
+                        Worked on framework migration from WebDriverIO to Playwright
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 size={18} className="mt-0.5 text-blue-600 flex-shrink-0" />
+                      <span>
+                        Integrated Applitools, increasing mobile and responsive UI visual test coverage to 90%
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -219,26 +242,76 @@ function App() {
 
               <div className="relative pl-8 border-l-2 border-blue-600 dark:border-blue-400">
                 <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-blue-600 dark:bg-blue-400" />
+
                 <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700">
                   <div className="flex items-start justify-between mb-3">
                     <div>
-                      <h3 className="text-xl font-bold mb-1">QA Engineer</h3>
-                      <p className="text-slate-600 dark:text-slate-400">Software Solutions</p>
+                      <h3 className="text-xl font-bold mb-1">
+                        Co-founder & Test Engineer
+                      </h3>
+                      <p className="text-slate-600 dark:text-slate-400">
+                        <a
+                          href="https://www.ormaric.app"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline hover:text-sky-500 transition"
+                        >
+                          Ormaric
+                        </a>
+                      </p>
                     </div>
-                    <span className="text-sm text-slate-500 dark:text-slate-400">2020 - 2022</span>
+                    <span className="text-sm text-slate-500 dark:text-slate-400">
+                      2022 - 2024
+                    </span>
                   </div>
+
                   <ul className="space-y-2 text-slate-600 dark:text-slate-300">
                     <li className="flex items-start gap-2">
                       <CheckCircle2 size={18} className="mt-0.5 text-blue-600 flex-shrink-0" />
-                      <span>Built UI automation with Playwright and WebDriverIO for attendance management platform</span>
+                      <span>
+                        Co-founded the first pre-loved clothing marketplace in BiH
+                      </span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 size={18} className="mt-0.5 text-blue-600 flex-shrink-0" />
-                      <span>Implemented API tests and visual regression testing using Applitools</span>
+                      <span>
+                        Led QA strategy and execution for web and mobile platforms
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="relative pl-8 border-l-2 border-blue-600 dark:border-blue-400">
+                <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-blue-600 dark:bg-blue-400" />
+
+                <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700">
+                  <div className="flex items-start justify-between mb-3">
+                    <div>
+                      <h3 className="text-xl font-bold mb-1">
+                        Freelance QA Tester
+                      </h3>
+                      <p className="text-slate-600 dark:text-slate-400">
+                        Remote
+                      </p>
+                    </div>
+                    <span className="text-sm text-slate-500 dark:text-slate-400">
+                      2020 - 2021
+                    </span>
+                  </div>
+
+                  <ul className="space-y-2 text-slate-600 dark:text-slate-300">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 size={18} className="mt-0.5 text-blue-600 flex-shrink-0" />
+                      <span>
+                        Manual testing (UI/API) for early stage web and mobile startups
+                      </span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle2 size={18} className="mt-0.5 text-blue-600 flex-shrink-0" />
-                      <span>Reduced defect escape rate by 60% through comprehensive test coverage</span>
+                      <span>
+                        Created test plans, logged bugs, and collaborated with development teams in short delivery cycles
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -274,7 +347,7 @@ function App() {
                   <li>• REST APIs</li>
                   <li>• Swagger/OpenAPI</li>
                   <li>• Postman</li>
-                  <li>• API Automation</li>
+                  <li>• Splunk Analyse</li>
                 </ul>
               </div>
 
@@ -298,7 +371,7 @@ function App() {
                 <h3 className="text-lg font-bold mb-3">CI/CD & Cloud</h3>
                 <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-300">
                   <li>• Jenkins</li>
-                  <li>• GitHub Actions</li>
+                  <li>• GitHub</li>
                   <li>• AWS (S3, Redshift)</li>
                   <li>• Kafka</li>
                 </ul>
@@ -342,16 +415,16 @@ function App() {
                   <Database className="text-white" size={24} />
                 </div>
                 <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                  Data Processing Platform
+                  Data Processing Platform & System Migration
                 </h3>
                 <p className="text-slate-600 dark:text-slate-300 mb-4">
-                  Designed API automation in Pytest, validated Kafka → UI → S3 data pipelines, and integrated regression tests into Jenkins CI.
+                  Validated internal data processing and system migration, ensuring full functional coverage, validating data integrity, and monitoring backend behavior via API Automation, Swagger and Splunk.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-2 py-1 bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs rounded-md">Python</span>
                   <span className="px-2 py-1 bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs rounded-md">Pytest</span>
                   <span className="px-2 py-1 bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs rounded-md">Kafka</span>
-                  <span className="px-2 py-1 bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs rounded-md">AWS</span>
+                  <span className="px-2 py-1 bg-blue-50 dark:bg-blue-950/30 text-blue-700 dark:text-blue-300 text-xs rounded-md">Splunk</span>
                 </div>
               </div>
 
@@ -360,15 +433,17 @@ function App() {
                   <TestTube className="text-white" size={24} />
                 </div>
                 <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                  Attendance Platform
+                  Online Presence Management Platform
                 </h3>
                 <p className="text-slate-600 dark:text-slate-300 mb-4">
-                  Built UI automation with Playwright and WebDriverIO, implemented API tests, and added visual regression testing using Applitools.
+                  Led QA efforts for desktop and mobile platforms, implementing 50% API and 50% UI automated tests that reduced regression time by 35% and improved visual test coverage via Applitools. 
+                  Migrated the automation framework from WebDriverIO to Playwright, optimizing performance and maintainability.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">JavaScript</span>
                   <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">Playwright</span>
-                  <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">Jenkins</span>
+                  <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">WebDriverIO</span>
+                  <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">Applitools</span>
                 </div>
               </div>
 
@@ -377,17 +452,37 @@ function App() {
                   <Server className="text-white" size={24} />
                 </div>
                 <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                  Management Dashboards
+                  Data Dashboards for Upper Management
                 </h3>
                 <p className="text-slate-600 dark:text-slate-300 mb-4">
-                  Validated real-time data flow from Kafka topics to frontend dashboards and supported nightly regression pipelines.
+                  Developed and maintained automation for a web-based management dashboard, implementing 60-40 ratio API-UI. Reduced manual testing effort by 40%.
+                  Ensured accurate end-to-end data delivery from AWS storage to UI via Kafka topics.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-2 py-1 bg-green-50 dark:bg-green-950/30 text-green-700 dark:text-green-300 text-xs rounded-md">TypeScript</span>
-                  <span className="px-2 py-1 bg-green-50 dark:bg-green-950/30 text-green-700 dark:text-green-300 text-xs rounded-md">Selenium</span>
+                  <span className="px-2 py-1 bg-green-50 dark:bg-green-950/30 text-green-700 dark:text-green-300 text-xs rounded-md">JavaScript/TypeScript</span>
+                  <span className="px-2 py-1 bg-green-50 dark:bg-green-950/30 text-green-700 dark:text-green-300 text-xs rounded-md">TestNG</span>
+                  <span className="px-2 py-1 bg-green-50 dark:bg-green-950/30 text-green-700 dark:text-green-300 text-xs rounded-md">Jenkins</span>
                   <span className="px-2 py-1 bg-green-50 dark:bg-green-950/30 text-green-700 dark:text-green-300 text-xs rounded-md">AWS</span>
                 </div>
               </div>
+
+              <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700 hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-600 transition-all group">
+                <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center mb-4">
+                  <TestTube className="text-white" size={24} />
+                </div>
+                <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                  Peer-to-Peer Fashion Platform
+                </h3>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">
+                  Ensured application quality through smoke, regression, exploratory and A/B testing, reducing regression defects and validating mobile and web functionality for a consistent user experience.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">Manual Testing</span>
+                  <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">A/B Testing</span>
+                  <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">User Experience</span>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
@@ -404,7 +499,7 @@ function App() {
                 <div>
                   <h3 className="font-bold mb-1">ISTQB Certified Tester</h3>
                   <a href="https://atsqa.org/certified-testers/profile/aff74e8fdcdc43bda1d5908eb68a6cc1" className="text-blue-600 hover:underline">
-                      Foundation Level
+                    Foundation Level
                   </a>
                 </div>
               </div>
