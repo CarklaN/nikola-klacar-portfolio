@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import {
   Mail, Github, Linkedin, Download, ChevronDown,
   Code, Server, Database, TestTube, Award, Briefcase,
-  CheckCircle2, ExternalLink, Moon, Sun, Menu, X
+  CheckCircle2, ExternalLink, Moon, Sun, Menu, X, ShoppingBag
 } from 'lucide-react';
 
 function App() {
@@ -119,7 +119,7 @@ function App() {
               Open to Remote Opportunities
             </div> */}
 
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-slate-900 via-blue-800 to-cyan-700 dark:from-slate-100 dark:via-blue-200 dark:to-cyan-200 bg-clip-text text-transparent leading-tight">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-slate-900 via-blue-800 to-cyan-700 dark:from-slate-100 dark:via-blue-200 dark:to-cyan-200 bg-clip-text text-transparent leading-relaxed pb-2">
               QA Automation Engineer
             </h1>
 
@@ -173,15 +173,31 @@ function App() {
         </section>
 
         <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50 dark:bg-slate-900">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">About Me</h2>
-            <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-sm border border-slate-200 dark:border-slate-700">
-              <p className="text-lg text-slate-600 dark:text-slate-300 mb-4 leading-relaxed">
-                I am a QA Automation Engineer who specialises on developing reliable and scalable test systems for complex platforms including data pipelines, management dashboards, and web services. I build automation frameworks that grow with products and teams, ensuring long-term quality and stability.
-              </p>
-              <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-                I collaborate closely with the engineering, DevOps, and product teams to ensure quality across the whole development process. My approach combines enterprise level standards with a startup mindset, shaped by my experience as a startup co-owner, while balancing speed, technical excellence and business impact.
-              </p>
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center">About Me</h2>
+            <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
+              <div className="flex justify-center">
+                <div className="w-full max-w-sm">
+                  <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-blue-200 to-cyan-200 dark:from-blue-900 dark:to-cyan-900 border-2 border-slate-200 dark:border-slate-700 shadow-lg flex items-center justify-center">
+                    <img
+                      src="https://raw.githubusercontent.com/CarklaN/nikola-klacar-portfolio/919f7b14c2df3e3120e7ce42e4bd898a79d58512/data/IMG_0246.PNG"
+                      className="w-full h-full object-cover object-top object-left"
+                    />
+                  </div>
+                  <p className="text-center text-sm text-slate-500 dark:text-slate-400 mt-4">
+                    Nikola Klacar
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-sm border border-slate-200 dark:border-slate-700">
+                <p className="text-lg text-slate-600 dark:text-slate-300 mb-4 leading-relaxed">
+                  I am a QA Automation Engineer who specialises on developing reliable and scalable test systems for complex platforms including data pipelines, management dashboards, and web services. I build automation frameworks that grow with products and teams, ensuring long-term quality and stability.
+                </p>
+                <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
+                  I collaborate closely with the engineering, DevOps, and product teams to ensure quality across the whole development process. My approach combines enterprise level standards with a startup mindset, shaped by my experience as a startup co-owner, while balancing speed, technical excellence and business impact.
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -203,7 +219,14 @@ function App() {
                         QA Automation Engineer
                       </h3>
                       <p className="text-slate-600 dark:text-slate-400">
-                        Atlantbh doo
+                        <a
+                          href="https://www.atlantbh.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline hover:text-sky-500 transition"
+                        >
+                          Atlantbh
+                        </a>
                       </p>
                     </div>
                     <span className="text-sm text-slate-500 dark:text-slate-400">
@@ -289,14 +312,14 @@ function App() {
                   <div className="flex items-start justify-between mb-3">
                     <div>
                       <h3 className="text-xl font-bold mb-1">
-                        Freelance QA Tester
+                        Freelance Test Engineer
                       </h3>
                       <p className="text-slate-600 dark:text-slate-400">
                         Remote
                       </p>
                     </div>
                     <span className="text-sm text-slate-500 dark:text-slate-400">
-                      2020 - 2021
+                      2021
                     </span>
                   </div>
 
@@ -475,14 +498,14 @@ function App() {
               <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700 hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-600 transition-all group">
                 <div className="flex items-start gap-3 mb-4">
                   <div className="w-10 h-10 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                    <TestTube className="text-white" size={20} />
+                    <ShoppingBag className="text-white" size={20} />
                   </div>
                   <h3 className="text-lg font-bold group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                     Peer-to-Peer Fashion Platform
                   </h3>
                 </div>
                 <p className="text-slate-600 dark:text-slate-300 mb-4">
-                  Ensured application quality through smoke, regression, exploratory and A/B testing, reducing regression defects and validating mobile and web functionality for a consistent user experience.
+                  Ensured e-commerce application quality through smoke, regression, exploratory and A/B testing, reducing regression defects and validating mobile and web functionality for a consistent user experience.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-2 py-1 bg-cyan-50 dark:bg-cyan-950/30 text-cyan-700 dark:text-cyan-300 text-xs rounded-md">Manual Testing</span>
