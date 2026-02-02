@@ -180,7 +180,7 @@ function App() {
                 <div className="w-full max-w-sm">
                   <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-blue-200 to-cyan-200 dark:from-blue-900 dark:to-cyan-900 border-2 border-slate-200 dark:border-slate-700 shadow-lg flex items-center justify-center">
                     <img
-                      src="https://raw.githubusercontent.com/CarklaN/nikola-klacar-portfolio/refs/heads/main/data/IMG_0246.PNG"
+                      src="https://raw.githubusercontent.com/CarklaN/nikola-klacar-portfolio/refs/heads/main/data/nikola-photo.png"
                       className="w-full h-full object-cover object-top object-left"
                     />
                   </div>
